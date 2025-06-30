@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UNO Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h1>UNO Online</h1>
+        <div id="players">玩家数量: <span id="player-count">0</span></div>
+        <div id="discard-pile" class="card black">UNO</div>
+        <div id="hand"></div>
+        <button id="uno-button" disabled>UNO!</button>
+    </div>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
